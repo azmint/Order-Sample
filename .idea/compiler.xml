@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Pipe-Main" />
+        <module name="Order-Sample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Pipe-Main" target="8" />
+      <module name="Order-Sample" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Pipe-Main" options="-parameters" />
+      <module name="Order-Sample" options="-parameters" />
     </option>
   </component>
 </project>
